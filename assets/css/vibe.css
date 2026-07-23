@@ -272,7 +272,7 @@ section{position:relative;z-index:2}
 .legal strong{color:var(--ink);font-weight:600}
 .legal .note{margin-top:36px;padding:18px 20px;border:1px solid var(--gold-ring);border-radius:14px;
   background:var(--gold-soft);color:#e9dfc7;font-size:13.5px}
-.legal .back{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:14px;margin-bottom:30px}
+.legal .back{display:flex;width:max-content;align-items:center;gap:7px;color:var(--muted);font-size:14px;margin-bottom:30px}
 .legal .back i{width:16px;height:16px}
 .legal .back:hover{color:var(--gold)}
 
