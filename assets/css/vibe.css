@@ -52,7 +52,7 @@
 
   --radius:   14px;
   --radius-lg:22px;
-  --shell: 1200px;
+  --shell: 1280px;
   --ease: cubic-bezier(.22,.61,.36,1);
   --shadow-sm: 0 2px 10px -4px rgba(31,45,38,.14);
   --shadow:    0 18px 44px -22px rgba(31,45,38,.26);
@@ -133,14 +133,14 @@ section{position:relative;z-index:2}
   padding:14px 24px;border-radius:100px;cursor:pointer;border:1px solid transparent;
   transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s,border-color .25s;white-space:nowrap}
 .btn i{width:17px;height:17px}
-.btn--gold{background:var(--grad-green);color:#F7F5F0;box-shadow:var(--shadow-gold)}
-.btn--gold:hover{transform:translateY(-2px);background:var(--green-deep);box-shadow:0 26px 54px -22px rgba(31,107,79,.55)}
+.btn--primary{background:var(--grad-green);color:#F7F5F0;box-shadow:var(--shadow-gold)}
+.btn--primary:hover{transform:translateY(-2px);background:var(--green-deep);box-shadow:0 26px 54px -22px rgba(31,107,79,.55)}
 .btn--ghost{background:var(--surface);border-color:var(--line-2);color:var(--ink)}
 .btn--ghost:hover{border-color:var(--green-ring);background:var(--green-soft);transform:translateY(-2px)}
 .btn--sm{padding:11px 18px;font-size:14px}
 
 /* ---------- headings utilitários ---------- */
-.h-gold{color:var(--gold-deep)}
+.h-green{background:var(--grad-green);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:var(--green)}
 .h-mute{color:var(--faint)}
 .display{font-size:clamp(1.9rem,6.2vw,4.8rem);font-weight:600;overflow-wrap:break-word;line-height:1.08}
 .lead{color:var(--ink-soft);font-size:clamp(1.05rem,1.6vw,1.22rem);line-height:1.7;max-width:46ch}
@@ -159,8 +159,11 @@ section{position:relative;z-index:2}
   linear-gradient(90deg,rgba(20,45,36,.94) 0%,rgba(20,45,36,.78) 34%,rgba(20,45,36,.34) 66%,rgba(20,45,36,.06) 100%),
   linear-gradient(180deg,rgba(20,45,36,.42) 0%,transparent 34%,rgba(20,45,36,.55) 100%),
   radial-gradient(70% 60% at 16% 40%,rgba(214,167,95,.14),transparent 62%)}
-.hero__inner{position:relative;z-index:2;max-width:660px}
+.hero__inner{position:relative;z-index:2;max-width:720px}
 .hero h1{margin:24px 0 22px}
+/* sobre o hero escuro o gradiente verde precisa clarear pra manter contraste */
+.hero h1 .h-green{background:linear-gradient(160deg,#8fd3b6 0%,#4E9F7D 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .h-light{color:#fbf7f0}
 .hero .lead{color:rgba(251,247,240,.88)}
 .hero .pill{background:rgba(251,247,240,.12);border-color:rgba(214,167,95,.5);color:#fbf7f0}
@@ -201,7 +204,7 @@ section{position:relative;z-index:2}
 .banner__inner .eyebrow{color:var(--gold-bright)}
 .banner h2{font-family:"Fraunces",serif;font-weight:600;color:#fbf7f0;
   font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.14;margin:12px 0 12px}
-.banner h2 .h-gold{color:var(--gold-bright)}
+.banner h2 .h-green{background:none;-webkit-text-fill-color:var(--green-support);color:var(--green-support)}
 .banner p{color:rgba(251,247,240,.86);font-size:16px;line-height:1.65;max-width:44ch;margin:0 0 22px}
 @media (max-width:640px){
   .banner{min-height:300px}
@@ -435,6 +438,8 @@ input:focus,textarea:focus,select:focus{border-color:var(--gold-ring);box-shadow
 .eyebrow--light{color:var(--gold)}
 .footer__banner h3{font-family:"Fraunces",serif;font-weight:600;color:#F7F5F0;
   font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.16;margin:12px 0 12px}
+.footer__banner h3 .h-green{background:linear-gradient(160deg,#8fd3b6 0%,#4E9F7D 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .footer__banner p{color:rgba(247,245,240,.85);font-size:15.5px;line-height:1.6;max-width:46ch;margin:0}
 .footer__banner-cta{display:flex;gap:12px;flex-wrap:wrap}
 .footer__banner-cta .btn--ghost{background:rgba(247,245,240,.08);border-color:rgba(247,245,240,.26);color:#F7F5F0}

@@ -27,7 +27,7 @@
       A("sobre", "sobre.html", "Sobre") +
       A("atendimento", "atendimento.html", "Atendimento") +
     '</nav>' +
-    '<a class="btn btn--gold btn--sm nav__cta" href="' + WA + '" target="_blank" rel="noopener">Falar com especialista <i data-lucide="arrow-up-right"></i></a>' +
+    '<a class="btn btn--primary btn--sm nav__cta" href="' + WA + '" target="_blank" rel="noopener">Falar com especialista <i data-lucide="arrow-up-right"></i></a>' +
     '<button class="nav__burger" id="burger" aria-label="Abrir menu"><i data-lucide="menu"></i></button>' +
   '</div>' +
     // mega: seguro
@@ -42,7 +42,7 @@
         '<a href="seguro-de-vida.html#sucessao">Planejamento Sucessório</a><a href="seguro-de-vida.html#empresarios">Seguro para Empresários</a>' +
         '<a href="seguro-de-vida.html#acidentes">Proteção contra Acidentes</a></div>' +
       '<div class="mega__cta"><b>Não sabe qual escolher?</b><p>Descubra sua proteção ideal em poucos passos.</p>' +
-        '<a class="btn btn--gold btn--sm" href="atendimento.html">Encontrar solução <i data-lucide="arrow-right"></i></a></div>' +
+        '<a class="btn btn--primary btn--sm" href="atendimento.html">Encontrar solução <i data-lucide="arrow-right"></i></a></div>' +
     '</div></div>' +
     // mega: empresas
     '<div class="mega" id="mega-empresas" data-mega-panel><div class="mega__panel">' +
@@ -56,7 +56,7 @@
         '<a href="beneficios-para-empresas.html#rh">Atendimento ao RH</a><a href="beneficios-para-empresas.html#rh">Atendimento ao Colaborador</a>' +
         '<a href="beneficios-para-empresas.html#gestao">Implantação e Movimentações</a></div>' +
       '<div class="mega__cta"><b>Vizio Empresas</b><p>Estratégia, implantação e gestão de benefícios.</p>' +
-        '<a class="btn btn--gold btn--sm" href="beneficios-para-empresas.html">Diagnóstico empresarial <i data-lucide="arrow-right"></i></a></div>' +
+        '<a class="btn btn--primary btn--sm" href="beneficios-para-empresas.html">Diagnóstico empresarial <i data-lucide="arrow-right"></i></a></div>' +
     '</div></div>' +
     // mega: conteudos
     '<div class="mega" id="mega-conteudos" data-mega-panel><div class="mega__panel">' +
@@ -66,7 +66,7 @@
       '<div class="mega__col"><h6>Empresas</h6><a href="conteudos.html">Benefícios para Empresas</a><a href="conteudos.html">RH e Pessoas</a></div>' +
       '<div class="mega__col"><h6>Planejamento</h6><a href="conteudos.html">Consórcios</a><a href="conteudos.html">Vida Financeira</a><a href="conteudos.html">Vizio</a></div>' +
       '<div class="mega__cta"><b>Vizio Conteúdos</b><p>Informação para decisões melhores.</p>' +
-        '<a class="btn btn--gold btn--sm" href="conteudos.html">Ver conteúdos <i data-lucide="arrow-right"></i></a></div>' +
+        '<a class="btn btn--primary btn--sm" href="conteudos.html">Ver conteúdos <i data-lucide="arrow-right"></i></a></div>' +
     '</div></div>' +
   '</header>' +
   // menu mobile
@@ -74,11 +74,11 @@
     '<a href="seguro-de-vida.html">Seguro de Vida</a><a href="beneficios-para-empresas.html">Benefícios para Empresas</a>' +
     '<a href="consorcios.html">Consórcios</a><a href="conteudos.html">Conteúdos</a>' +
     '<a href="sobre.html">Sobre a Vizio</a><a href="atendimento.html">Atendimento</a>' +
-    '<a class="btn btn--gold" href="' + WA + '" target="_blank" rel="noopener" style="margin-top:16px;justify-content:center">Falar com especialista</a>' +
+    '<a class="btn btn--primary" href="' + WA + '" target="_blank" rel="noopener" style="margin-top:16px;justify-content:center">Falar com especialista</a>' +
   '</div>' +
   // barra CTA mobile
   '<div class="mobar"><a class="btn btn--ghost btn--sm" href="atendimento.html">Encontrar solução</a>' +
-    '<a class="btn btn--gold btn--sm" href="' + WA + '" target="_blank" rel="noopener">Falar conosco</a></div>';
+    '<a class="btn btn--primary btn--sm" href="' + WA + '" target="_blank" rel="noopener">Falar conosco</a></div>';
 
   var FOOTER =
   '<footer class="footer">' +
@@ -87,11 +87,11 @@
       '<div class="shell footer__banner-inner">' +
         '<div class="footer__banner-txt">' +
           '<span class="eyebrow eyebrow--light">Vamos conversar</span>' +
-          '<h3>Proteja quem você ama. <span class="h-gold">Comece hoje.</span></h3>' +
+          '<h3>Proteja quem você ama. <span class="h-green">Comece hoje.</span></h3>' +
           '<p>Um especialista Vizio monta o plano ideal pra sua família ou sua empresa — sem compromisso.</p>' +
         '</div>' +
         '<div class="footer__banner-cta">' +
-          '<a class="btn btn--gold" href="' + WA + '" target="_blank" rel="noopener">Falar no WhatsApp <i data-lucide="message-circle"></i></a>' +
+          '<a class="btn btn--primary" href="' + WA + '" target="_blank" rel="noopener">Falar no WhatsApp <i data-lucide="message-circle"></i></a>' +
           '<a class="btn btn--ghost" href="atendimento.html">Central de Atendimento</a>' +
         '</div>' +
       '</div>' +
@@ -111,7 +111,7 @@
         '<div class="footer__col footer__contact"><h5>Fale com a gente</h5>' +
           '<a class="fl fl--ic" href="' + WA + '" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> (31) 98433-2711</a>' +
           '<a class="fl fl--ic" href="atendimento.html"><i data-lucide="map-pin"></i> Central de Atendimento</a>' +
-          '<a class="btn btn--gold btn--sm" href="atendimento.html" style="margin-top:14px">Falar com especialista <i data-lucide="arrow-up-right"></i></a></div>' +
+          '<a class="btn btn--primary btn--sm" href="atendimento.html" style="margin-top:14px">Falar com especialista <i data-lucide="arrow-up-right"></i></a></div>' +
       '</nav>' +
     '</div>' +
     '<div class="footer__base"><span>© 2026 Vizio Capital. Todos os direitos reservados.</span>' +
