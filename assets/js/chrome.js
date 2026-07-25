@@ -12,10 +12,9 @@
   };
 
   var HEADER =
-  '<div class="grain"></div>' +
   '<div class="ticker"><div class="ticker__track">' +
-    '<span>Proteção para hoje. Estratégia para o futuro.</span><span>Seguro de Vida</span><span>Benefícios para Empresas</span><span>Consórcios</span>' +
-    '<span>Proteção para hoje. Estratégia para o futuro.</span><span>Seguro de Vida</span><span>Benefícios para Empresas</span><span>Consórcios</span>' +
+    '<span>Proteção que vira tranquilidade todos os dias</span><span>Cuidar da sua família</span><span>Cuidar do seu time</span><span>Realizar suas conquistas</span>' +
+    '<span>Proteção que vira tranquilidade todos os dias</span><span>Cuidar da sua família</span><span>Cuidar do seu time</span><span>Realizar suas conquistas</span>' +
   '</div></div>' +
   '<header class="site-header" id="siteHeader"><div class="shell nav">' +
     '<a class="nav__logo" href="index.html" aria-label="Vizio Capital"><img src="assets/img/logo.png" alt="Vizio Capital"/></a>' +
@@ -83,8 +82,8 @@
 
   var FOOTER =
   '<footer class="footer"><div class="shell">' +
-    '<div class="footer__brand"><img src="assets/img/logo.png" class="logo" alt="Vizio Capital"/>' +
-      '<p style="color:var(--faint);font-size:13.5px;max-width:34ch">Proteção para hoje. Estratégia para o futuro. Seguro de vida, benefícios para empresas e consórcios com abordagem consultiva.</p>' +
+    '<div class="footer__brand"><span class="footer__logo"><img src="assets/img/logo.png" class="logo" alt="Vizio Capital"/></span>' +
+      '<p style="color:var(--muted);font-size:14px;max-width:34ch">Proteção que vira tranquilidade todos os dias. Seguro de vida, benefícios para sua empresa e consórcio, pensados para cuidar do que você já conquistou.</p>' +
       '<div class="socials"><a href="' + WA + '" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>' +
         '<a href="https://www.instagram.com/viziocapital.inc" target="_blank" rel="noopener" aria-label="Instagram"><i data-lucide="instagram"></i></a>' +
         '<a href="https://www.linkedin.com/company/vizio-capital-inc" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a></div></div>' +
