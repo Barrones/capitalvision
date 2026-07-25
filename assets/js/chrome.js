@@ -81,7 +81,22 @@
     '<a class="btn btn--gold btn--sm" href="' + WA + '" target="_blank" rel="noopener">Falar conosco</a></div>';
 
   var FOOTER =
-  '<footer class="footer"><div class="shell">' +
+  '<footer class="footer">' +
+    '<div class="footer__banner">' +
+      '<div class="footer__banner-bg"><img src="assets/img/hero-poster.jpg" alt=""/></div>' +
+      '<div class="shell footer__banner-inner">' +
+        '<div class="footer__banner-txt">' +
+          '<span class="eyebrow eyebrow--light">Vamos conversar</span>' +
+          '<h3>Proteja quem você ama. <span class="h-gold">Comece hoje.</span></h3>' +
+          '<p>Um especialista Vizio monta o plano ideal pra sua família ou sua empresa — sem compromisso.</p>' +
+        '</div>' +
+        '<div class="footer__banner-cta">' +
+          '<a class="btn btn--gold" href="' + WA + '" target="_blank" rel="noopener">Falar no WhatsApp <i data-lucide="message-circle"></i></a>' +
+          '<a class="btn btn--ghost" href="atendimento.html">Central de Atendimento</a>' +
+        '</div>' +
+      '</div>' +
+    '</div>' +
+  '<div class="shell">' +
     '<div class="footer__top">' +
       '<div class="footer__brand"><span class="footer__logo"><img src="assets/img/logo.png" class="logo" alt="Vizio Capital"/></span>' +
         '<p>Proteção que vira tranquilidade todos os dias. Seguro de vida, benefícios para sua empresa e consórcio, pensados para cuidar do que você já conquistou.</p>' +
