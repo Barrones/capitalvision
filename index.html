@@ -19,11 +19,17 @@
 
 <!-- HERO -->
 <section class="hero" id="topo">
+  <div class="hero__video" id="heroVideo">
+    <video autoplay muted loop playsinline preload="none" poster="assets/img/hero01-poster.jpg">
+      <source src="assets/video/hero01.mp4" type="video/mp4"/>
+    </video>
+  </div>
+  <div class="hero__overlay"></div>
   <div class="shell">
     <div class="hero__inner">
       <span class="pill reveal"><span class="dot"></span>Como podemos cuidar de você e da sua família?</span>
       <h1 class="display reveal" data-d="1">
-        <span style="color:var(--ink)">Proteção que vira</span><br/>
+        <span class="h-light">Proteção que vira</span><br/>
         <span class="h-gold">tranquilidade todos os dias.</span>
       </h1>
       <p class="lead reveal" data-d="2">Seguro de vida, benefícios para sua empresa e consórcio — pensados para cuidar do seu lar, da sua família e do que você já conquistou.</p>
@@ -37,13 +43,10 @@
         <div><b>Suas conquistas</b><small>o caminho mais tranquilo</small></div>
       </div>
     </div>
-    <div class="hero__photo reveal" data-d="2">
-      <img src="assets/img/familia.png" alt="Família brasileira feliz, protegida pela Vizio Capital"/>
-      <div class="hero__badge">
-        <div class="ic"><i data-lucide="sun"></i></div>
-        <div><small>Um novo dia</small><b>Cuidar de quem você ama</b></div>
-      </div>
-    </div>
+  </div>
+  <div class="float-card">
+    <div class="ic"><i data-lucide="sun"></i></div>
+    <div><small>Um novo dia</small><b>Cuidar de quem você ama</b></div>
   </div>
 </section>
 
@@ -120,6 +123,21 @@
   </div>
 </section>
 
+<!-- BANNER 1 · família / proteção -->
+<section class="pad-sm">
+  <div class="shell">
+    <div class="banner reveal">
+      <div class="banner__bg"><img src="assets/img/familia.png" alt="Família reunida, protegida em todos os momentos"/></div>
+      <div class="banner__inner">
+        <span class="eyebrow">Presente em todos os momentos</span>
+        <h2>Proteger quem você ama é <span class="h-gold">cuidar do futuro deles.</span></h2>
+        <p>Do primeiro plano ao imprevisto que ninguém espera, a Vizio caminha ao seu lado para que sua família siga em frente com tranquilidade.</p>
+        <a class="btn btn--gold" href="seguro-de-vida.html">Cuidar da minha família <i data-lucide="arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- EMPRESAS -->
 <section class="pad surface-band" id="empresas">
   <div class="shell split rev">
@@ -173,6 +191,21 @@
       </a>
     </div>
     <div style="text-align:center;margin-top:34px"><a class="btn btn--gold" href="consorcios.html">Simular meu projeto <i data-lucide="arrow-up-right"></i></a></div>
+  </div>
+</section>
+
+<!-- BANNER 2 · conquista / futuro -->
+<section class="pad-sm">
+  <div class="shell">
+    <div class="banner reveal">
+      <div class="banner__bg"><img src="assets/img/hero01-poster.jpg" alt="Novo dia começando, símbolo de conquistas e realização"/></div>
+      <div class="banner__inner">
+        <span class="eyebrow">Cada conquista, um novo começo</span>
+        <h2>Quem planeja hoje <span class="h-gold">realiza mais amanhã.</span></h2>
+        <p>Casa própria, carro, o crescimento da sua empresa. Com estratégia e a consultoria certa, o que parece distante vira o próximo passo.</p>
+        <a class="btn btn--gold" href="consorcios.html">Planejar minha conquista <i data-lucide="arrow-right"></i></a>
+      </div>
+    </div>
   </div>
 </section>
 

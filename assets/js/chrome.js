@@ -82,20 +82,25 @@
 
   var FOOTER =
   '<footer class="footer"><div class="shell">' +
-    '<div class="footer__brand"><span class="footer__logo"><img src="assets/img/logo.png" class="logo" alt="Vizio Capital"/></span>' +
-      '<p style="color:var(--muted);font-size:14px;max-width:34ch">Proteção que vira tranquilidade todos os dias. Seguro de vida, benefícios para sua empresa e consórcio, pensados para cuidar do que você já conquistou.</p>' +
-      '<div class="socials"><a href="' + WA + '" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>' +
-        '<a href="https://www.instagram.com/viziocapital.inc" target="_blank" rel="noopener" aria-label="Instagram"><i data-lucide="instagram"></i></a>' +
-        '<a href="https://www.linkedin.com/company/vizio-capital-inc" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a></div></div>' +
-    '<div class="footer__grid">' +
-      '<div><h5>Seguro de Vida</h5><a class="fl" href="seguro-de-vida.html#familia">Proteção Familiar</a><a class="fl" href="seguro-de-vida.html#renda">Proteção de Renda</a><a class="fl" href="seguro-de-vida.html#saude">Proteção para Saúde</a><a class="fl" href="seguro-de-vida.html#patrimonio">Proteção Patrimonial</a><a class="fl" href="seguro-de-vida.html#sucessao">Planejamento Sucessório</a></div>' +
-      '<div><h5>Empresas</h5><a class="fl" href="beneficios-para-empresas.html#saude">Saúde</a><a class="fl" href="beneficios-para-empresas.html#odonto">Odontológico</a><a class="fl" href="beneficios-para-empresas.html#vida">Vida em Grupo</a><a class="fl" href="beneficios-para-empresas.html#gestao">Gestão de Benefícios</a></div>' +
-      '<div><h5>Consórcios</h5><a class="fl" href="consorcios.html#imoveis">Imóveis</a><a class="fl" href="consorcios.html#veiculos">Veículos</a><a class="fl" href="consorcios.html#empresas">Empresas</a><a class="fl" href="consorcios.html">Simulação</a></div>' +
-      '<div><h5>Atendimento</h5><a class="fl" href="atendimento.html">Central de Atendimento</a><a class="fl" href="atendimento.html#faq">Perguntas Frequentes</a><a class="fl" href="' + WA + '" target="_blank" rel="noopener">Contato</a></div>' +
-      '<div><h5>Vizio</h5><a class="fl" href="sobre.html">Sobre a Vizio</a><a class="fl" href="conteudos.html">Conteúdos</a><a class="fl" href="privacidade.html">Política de Privacidade</a><a class="fl" href="termos.html">Termos de Uso</a></div>' +
+    '<div class="footer__top">' +
+      '<div class="footer__brand"><span class="footer__logo"><img src="assets/img/logo.png" class="logo" alt="Vizio Capital"/></span>' +
+        '<p>Proteção que vira tranquilidade todos os dias. Seguro de vida, benefícios para sua empresa e consórcio, pensados para cuidar do que você já conquistou.</p>' +
+        '<div class="socials"><a href="' + WA + '" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>' +
+          '<a href="https://www.instagram.com/viziocapital.inc" target="_blank" rel="noopener" aria-label="Instagram"><i data-lucide="instagram"></i></a>' +
+          '<a href="https://www.linkedin.com/company/vizio-capital-inc" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a></div></div>' +
+      '<nav class="footer__grid">' +
+        '<div class="footer__col"><h5>Seguro de Vida</h5><a class="fl" href="seguro-de-vida.html#familia">Proteção Familiar</a><a class="fl" href="seguro-de-vida.html#renda">Proteção de Renda</a><a class="fl" href="seguro-de-vida.html#saude">Proteção para Saúde</a><a class="fl" href="seguro-de-vida.html#patrimonio">Proteção Patrimonial</a><a class="fl" href="seguro-de-vida.html#sucessao">Planejamento Sucessório</a></div>' +
+        '<div class="footer__col"><h5>Empresas</h5><a class="fl" href="beneficios-para-empresas.html#saude">Saúde</a><a class="fl" href="beneficios-para-empresas.html#odonto">Odontológico</a><a class="fl" href="beneficios-para-empresas.html#vida">Vida em Grupo</a><a class="fl" href="beneficios-para-empresas.html#gestao">Gestão de Benefícios</a></div>' +
+        '<div class="footer__col"><h5>Consórcios</h5><a class="fl" href="consorcios.html#imoveis">Imóveis</a><a class="fl" href="consorcios.html#veiculos">Veículos</a><a class="fl" href="consorcios.html#empresas">Empresas</a><a class="fl" href="consorcios.html">Simulação</a></div>' +
+        '<div class="footer__col"><h5>Vizio</h5><a class="fl" href="sobre.html">Sobre a Vizio</a><a class="fl" href="conteudos.html">Conteúdos</a><a class="fl" href="atendimento.html">Atendimento</a><a class="fl" href="atendimento.html#faq">Perguntas Frequentes</a></div>' +
+        '<div class="footer__col footer__contact"><h5>Fale com a gente</h5>' +
+          '<a class="fl fl--ic" href="' + WA + '" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> (31) 98433-2711</a>' +
+          '<a class="fl fl--ic" href="atendimento.html"><i data-lucide="map-pin"></i> Central de Atendimento</a>' +
+          '<a class="btn btn--gold btn--sm" href="atendimento.html" style="margin-top:14px">Falar com especialista <i data-lucide="arrow-up-right"></i></a></div>' +
+      '</nav>' +
     '</div>' +
     '<div class="footer__base"><span>© 2026 Vizio Capital. Todos os direitos reservados.</span>' +
-      '<span class="legal-links"><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos</a></span></div>' +
+      '<span class="legal-links"><a href="privacidade.html">Política de Privacidade</a><a href="termos.html">Termos de Uso</a></span></div>' +
   '</div></footer>';
 
   document.body.insertAdjacentHTML("afterbegin", HEADER);
