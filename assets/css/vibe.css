@@ -132,7 +132,7 @@ section{position:relative;z-index:2}
 /* ---------- HERO com vídeo de fundo (família ao pôr do sol) ---------- */
 /* NOTA: overlay quente calibrado para o tema claro atual. Quando a paleta verde
    (#1F6B4F base) chegar, trocar as cores do .hero__overlay pelo verde profundo. */
-.hero{position:relative;overflow:hidden;min-height:88vh;display:flex;align-items:center;
+.hero{position:relative;overflow:hidden;min-height:min(86vh,780px);display:flex;align-items:center;
   padding:96px 0 84px;background:var(--ink)}
 .shot .hero{min-height:720px;height:720px}
 .hero__video{position:absolute;top:-20%;left:0;width:100%;height:140%;z-index:0;will-change:transform}
