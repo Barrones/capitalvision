@@ -17,7 +17,7 @@
     '<span>Proteção que vira tranquilidade todos os dias</span><span>Cuidar da sua família</span><span>Cuidar do seu time</span><span>Realizar suas conquistas</span>' +
   '</div></div>' +
   '<header class="site-header" id="siteHeader"><div class="shell nav">' +
-    '<a class="nav__logo" href="index.html" aria-label="Vizio Capital"><img src="assets/img/logo.png" alt="Vizio Capital"/></a>' +
+    '<a class="nav__logo" href="index.html" aria-label="Vizio Capital"><img src="assets/img/logo-dark.png" alt="Vizio Capital"/></a>' +
     '<nav class="nav__links">' +
       A("inicio", "index.html", "Início") +
       A("seguro", "seguro-de-vida.html", "Seguro de Vida") +
